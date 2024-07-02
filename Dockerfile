@@ -1,8 +1,8 @@
-FROM owasp/dependency-check-action:latest
+FROM FROM FROM ghcr.io/shay-valid8me/dependencycheck_builder:main
 
-LABEL repository="https://github.com/dependency-check/Dependency-Check_Action" \
-      homepage="https://github.com/dependency-check/Dependency-Check_Action" \
-      maintainer="javixeneize" \
+LABEL repository="https://github.com/Shay-valid8Me/Dependency-Check_Action" \
+      homepage="https://github.com/Shay-valid8Me/Dependency-Check_Action" \
+      maintainer="Shay-valid8Me" \
       com.github.actions.name="Dependency Check" \
       com.github.actions.description="Github action to execute dependency check as part of a github workflow" \
       com.github.actions.icon="shield" \
