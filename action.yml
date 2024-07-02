@@ -1,5 +1,5 @@
-name: 'Dependency Check'
-description: 'Github action to execute dependency check as part of a github workflow'
+name: 'Dependency Checker'
+description: 'GitHub action to execute dependency check as part of a GitHub Workflow (forked)'
 Author: 'Shay-valid8Me'
 branding:
   icon: 'shield'  
@@ -14,14 +14,12 @@ inputs:
     out:
         required: true
         default: 'reports'
-
     args:
         required: false
 runs:
     using: 'docker'
     image: 'Dockerfile'
     args:
-
         - '--project'
         - '${{ inputs.project }}'
         - '--scan'
