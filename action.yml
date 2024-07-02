@@ -1,4 +1,4 @@
-name: 'Dependency Checker'
+name: 'OWASP Dependency Checker'
 description: 'GitHub action to execute dependency check as part of a GitHub Workflow (forked)'
 Author: 'Shay-valid8Me'
 branding:
