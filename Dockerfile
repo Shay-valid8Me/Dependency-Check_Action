@@ -1,4 +1,4 @@
-FROM FROM FROM ghcr.io/shay-valid8me/dependencycheck_builder:main
+FROM ghcr.io/shay-valid8me/dependencycheck_builder:main
 
 LABEL repository="https://github.com/Shay-valid8Me/Dependency-Check_Action" \
       homepage="https://github.com/Shay-valid8Me/Dependency-Check_Action" \
